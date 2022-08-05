@@ -1,0 +1,311 @@
+*{margin: 0%;}
+.hamginihdiv{
+    height: 98px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ihdiv{
+    width: 1381px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url(gogo-logo.345096b3.png);
+    width: 150px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.durvuljin{
+    width: 47px;
+    height: 47px;
+    margin-left: 4px;
+    border: 1px solid silver;
+}
+.durvuljin:hover{
+    background-color: dodgerblue;
+}
+.inputihdiv{
+    width: 595px;
+    height: 47px;
+    margin-left: 40px;
+}
+.inputdiv{
+    width: 595px;
+    height: 47px;
+}
+.input{
+    width: 585px;
+    height: 42px;
+    font-size: 16px;
+}
+.search{
+    width: 60px;
+    height: 50px;
+    background-image: url(f2qMti-search-button-square-blue-free-png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sarjij{
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 3px;
+    height: 3px;
+    background-color: silver;
+}
+.omg{
+    width: 70px;
+    height: 50px;
+    margin-left: 175px;
+}
+.omg1{
+    display: flex;
+}
+.zl2{
+    background-image: url(png-transparent-computer-icons-calendar-others-miscellaneous-blue-text-thumbnail.png);
+    width: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sarudur{
+    color: dodgerblue;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.tsagagar{
+    width: 70px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.gradus{
+    display: flex;
+    margin-top: 0;
+}
+.uul{
+    background-image: url(download.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ahoyr{
+    font-size: 20px;
+    margin-left: 5px;
+    color: dodgerblue;
+    margin-top: 1px;
+    margin: auto;
+}
+.hansh{
+    margin-left: 30px;
+}
+.omg3{
+    font-size: 26px;
+    color: dodgerblue;
+}
+.menu{
+    border: 1px solid whitesmoke;
+    height: 47px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu1{
+    width: 1381px;
+    height: 47px;
+    display: flex;
+}
+.baishin{
+    height: 47px;
+    width: 50px;
+    background-image: url(2341546-middle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mega{
+    width: 180px;
+    color: dodgerblue;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ka{
+    width: 100px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ka:hover{
+    color: dodgerblue;
+}
+.ko{
+    width: 150px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ko:hover{
+    color: dodgerblue;
+}
+.sum{
+    margin-left: 145px;
+    height: 47px;
+    width: 55px;
+    background-color: dodgerblue;
+    background-image: url();
+}
+.zurihdiv{
+    width: 100%;
+    height: 609px;
+    background: linear-gradient(whitesmoke, silver, silver, white);  
+    display: flex;
+    justify-content: center;
+}
+.zurdiv{
+    margin-top: 7px;
+    width: 1381px;
+    height: 609px;
+    display: flex;
+}
+.tomzur{
+    background-image: url(292407-04042022-1649037462-2064688574-DSC080631.jpeg);
+    width: 49%;
+    height: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zur4{
+    width: 50%;
+    height: 100%;
+}
+.zur12{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.zur41{
+    background-image: url(292401-04042022-1649030880-1608406824-_GS_5590-1648839438-1648839438.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+}
+.zur42{
+    background-image: url(292408-04042022-1649033807-1180619813-bucha.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 99%;
+    margin-bottom: 0.5%;
+}
+.zur34{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.zur43{
+    height: 99%;
+    width: 49%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(-04042022-1649031860-195886971-1R4A5582d1.jpeg);
+}
+.zur44{
+    height: 99%;
+    width: 48.5%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Gogo\ 280x240.png);
+}
+.dooshooihdiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.dooshoo{
+    width: 1381px;
+    display: flex;
+}
+.dooshoo1{
+    width: 65%;
+}
+.unuu{
+    color: white;
+    background-color: dodgerblue;
+    font-size: 18px;
+    width: 50%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.medee1{
+    height: 150px;
+    width: 80%;
+    margin-top: 13px;
+    display: flex;
+
+}
+.medeezur{
+    background-image: url(292419-04042022-1649041650-2102984075-uchral.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.bich{
+    margin-left: 10px;
+}
+.delhiid{
+    color: silver;
+    font-size: 15px;
+}
+.busad{
+    display: flex;
+    height: 50px;
+}
+.busad{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.busad1{
+    width: 1381px;
+    height: 50px;
+    display: flex;
+    margin-top: 30px;
+}
+.saaral{
+    width: 650px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.busmed{
+    width: 250px;
+    height: 50px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.har{
+    margin-top: 50px;
+    height: 700px;
+    background-color: black;
+    width: 100%;
+}

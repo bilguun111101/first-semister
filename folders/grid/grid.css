@@ -1,0 +1,241 @@
+*{margin: 0%; padding: 0%;}
+.container{
+    display: grid;
+    height: 200vh;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 0.6fr;
+    grid-template-areas: "apple apple learn learn"
+                         "our hardly hardly popular"
+                         "games much much popular"
+                         "twitter exp more more";
+}
+.apple{
+    grid-area: apple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+    width: 25%;
+}
+.apple h4{
+    color: grey;
+}
+.today{
+    color: grey;
+}
+.phone{
+    width: 22%;
+    height: 100%;
+    display: flex;
+}
+.phone img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0%;
+    align-self: flex-end;
+    min-width: 100%;
+}
+.threed{
+    font-size: 25px;
+}
+.learn{
+    background-color: whitesmoke;
+    grid-area: learn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.learn div{
+    width: 45%;
+    align-self: center;
+    text-align: center;
+}
+.learn1{
+    color: grey;
+}
+.learn a{
+    color: #1ABC9C;
+}
+.how{
+    font-size: 50px;
+}
+.our{
+    background-color: #E16320;
+    grid-area: our;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our div{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our div img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.our div p{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.our div a{
+    text-decoration: none;
+    color: orange;
+}
+.hardly{
+    display: flex;
+    justify-content: space-around;
+    grid-area: hardly;
+}
+.op{
+    width: 21%;
+    height: 85%;
+    align-self: flex-end;
+    margin-bottom: 0%;
+}
+.imac{
+    color: grey;
+}
+.month{
+    font-size: 24px;
+}
+.op div{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0%;
+}
+.op img{
+    width: 150%;
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    position: relative;
+    left: -97%;
+}
+.omg{
+    height: 85%;
+    width: 35%;
+    align-self: flex-end;
+    margin-bottom: 0%;
+}
+.omg p{
+    color: grey;
+}
+.omg a{
+    color: #1ABC9C;
+    text-decoration: none;
+}
+.now{
+    background-color: teal;
+    grid-area: now;
+}
+.popular{
+    background-color: blueviolet;
+    grid-area: popular;
+}
+.games{
+    grid-area: games;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.games img{
+    max-width: 100%;
+    width: 45%;
+    margin-right: 10%;
+}
+.games div{
+    font-size: 24px;
+}
+.games a{
+    text-decoration: none;
+    color: aqua;
+}
+.much{
+    background-color: #73C6B6;
+    grid-area: much;
+}
+.ko{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.ko div{
+    width: 87px;
+    height: 20px;
+    background-color: #E16320;
+    border-radius: 5px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+}
+.ka{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ka div{
+    width: 20%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.ku{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 65%;
+    left: 10%;
+    min-width: 100%;
+}
+.ku img{
+    align-self: flex-end;
+    margin-bottom: 0%;
+    width: 64%;
+    position: relative;
+    margin-bottom: 0%;
+}
+.twitter{
+    background-color: dodgerblue;
+    grid-area: twitter;
+}
+.exp{
+    background-color: red;
+    grid-area: exp;
+}
+.more{
+    background-color: purple;
+    grid-area: more;
+}
+@media only screen and (max-width: 998px) {
+    .container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr 0.7fr;
+        grid-template-areas: "learn learn"
+                              "apple apple"
+                              "our games"
+                              "hardly hardly"
+                              "twitter popular"
+                              "much popular"
+                              "exp exp"
+                              "more more";
+    }
+}

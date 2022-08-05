@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+}
+.OP ~{
+    justify-content:  flex-end;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: silver;
+    width: 100px;
+    height: 150px;
+}
+.dd{
+    margin-left: 10px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+.dd:hover{
+    background-color: yellow;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

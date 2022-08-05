@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0%;}
+
+body{
+    background: #E5E7E9;
+}
+
+.first{
+    width: 100vw;
+    height: 50vh;
+    background: #fff;
+    box-shadow: 0 5px 100px;
+}

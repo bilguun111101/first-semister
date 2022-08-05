@@ -1,0 +1,205 @@
+*{margin: 0%;}
+.ihdiv{
+    height: 100px;
+    background-color: #566573;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url();
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+}
+.home{
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.solu{
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.prod{
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.servi{
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.con{
+    color: white;
+    font-size: 19px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    border: 2px solid white;
+    background: linear-gradient(silver, white, silver, grey);
+    font-size: 19px;
+    height: 60px;
+    width: 85px;
+    color: black;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.submit1{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+.reg{
+    border: 2px solid white;
+    background: linear-gradient(silver, white, silver, grey);
+    font-size: 19px;
+    height: 60px;
+    width: 110px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.tomzurdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tomzur{
+    width: 100%;
+    height: 1800px;
+    background-image: url(photo-1589672170649-cffa865316ba.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10%;
+    box-shadow: 5px;
+}
+.lorem{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10%;
+    width: 800px;
+}
+.button{
+    height: 70px;
+    width: 200px;
+    font-size: 21px;
+    border-radius: 30px;
+    background: linear-gradient(silver, white, silver, grey);
+}
+.button1{
+    height: 70px;
+    width: 200px;
+    font-size: 21px;
+    border-radius: 30px;
+    background: linear-gradient(silver, white, silver, grey);
+
+}
+@media (max-width: 900px){
+    .logo{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .solu{
+        display: none;
+    }
+    .prod{
+        display: none;
+    }
+    .servi{
+        display: none;
+    }
+    .con{
+        display: none;
+    }
+    .submit{
+        display: none;
+    }
+    .submit1{
+        display: none;
+    }
+    .tomzur{
+        display: none;
+    }
+    .hello{
+        display: none;
+    }
+    .lorem{
+        display: none;
+    }
+    /*.div{
+        display: none;
+    }*/
+    /*.ihdiv{
+        display: none;
+    }*/
+}
+/*body{
+    max-width: 1200px;
+    margin: auto;
+}*/
+.zurag3div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.zurag3{
+    display: flex;
+}
+.zurag31{
+    width: 400px;
+    height: 100%;
+    background-color: aqua;
+}
+.zurag32{
+    width: 400px;
+    height: 100%;
+    background-color: blue;
+}
+.zurag33{
+    width: 400px;
+    height: 100%;
+    background-color: violet;
+}

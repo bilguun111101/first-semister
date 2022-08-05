@@ -1,0 +1,415 @@
+*{margin: 0%;}
+body{
+    background-color: whitesmoke;
+}
+.deerihdiv{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid silver;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+.deerdiv{
+    width: 940px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    background-image: url(instagram_logo.svg.png);
+    height: 40px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search{
+    width: 257px;
+    height: 34px;
+    margin-left: 220px;
+}
+#search{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background-color: #E1E4E9;
+    font-size: 16px;
+    border: 1px solid #E1E4E9;
+}
+.home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: 88px;
+    background-image: url(kisspng-dog-houses-kennel-silhouette-pet-home-house-icon-5cc08b28a5eda1.3472515315561224086797.jpg);
+}
+.mess{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    background-image: url(0-4932_facebook-messenger-icon-facebook-messenger-icon-png.png);
+}
+.nemeh{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    border: 1.5px solid black;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nemeh1{
+    width: 80%;
+    height: 80%;
+    background-image: url(png-clipart-addition-plus-and-minus-signs-symbol-symbol-miscellaneous-cross-thumbnail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.safari{
+    width: 25px;
+    height: 25px;
+    background-image: url(652441_logo_512x512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+.hearth{
+    width: 25px;
+    height: 25px;
+    background-image: url(2267.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+.user{
+    width: 25px;
+    height: 25px;
+    background-image: url(User-Icon-Grey-300x300.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+.tomihdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.tomdiv{
+    width: 940px;
+    display: flex;
+    height: 100%;
+}
+.first{
+    width: 66%;
+    height: 100%;
+}
+.story{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: white;
+}
+.one{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 14px;
+    border: 2.9px solid #E1306C;
+}
+.professor{
+    background-image: url(d1d4486c80a8a92d94b68d3c2454dbe7_crop_exact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.second{
+    width: 100%;
+    height: 100%;
+    border: 1px solid silver;
+    margin-top: 14px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 9px;
+}
+.dotor1{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+.pro{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #E1306C;
+    margin-left: 14px;
+}
+.ner{
+    width: 400px;
+    height: 40px;
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.dotor2{
+    width: 100%;
+    height: 900px;
+    background-image: url(MV5BMTMwMzY2NzkxNV5BMl5BanBnXkFtZTcwNjQ5MDM0Mg@@._V1_FMjpg_UX1000_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.like{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.heart{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(2267.png);
+    margin-left: 14px;
+}
+.setgeg{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(571-5717511_comment-instagram-icon-png-clipart.png);
+    margin-left: 14px;
+}
+.comm{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(png-transparent-computer-icons-others-angle-rectangle-triangle-thumbnail.png);
+    margin-left: 14px;
+}
+.save{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(instagram_icon_sets-07-512.png);
+    margin-left: 470px;
+}
+.too{
+    font-size: 20px;
+    margin-left: 14px;
+}
+.sond{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.the{
+    font-size: 20px;
+    margin-left: 14px;
+}
+.sight{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.view{
+    color: silver;
+    font-size: 15px;
+    margin-left: 14px;
+    margin-top: 6px;
+}
+.iam{
+    margin-top: 4px;
+    margin-left: 14px;
+}
+.rob{
+    margin-top: 4px;
+    margin-left: 14px;
+}
+.march{
+    margin-left: 14px;
+    margin-top: 4px;
+    font-size: 11px;
+    color: silver;
+}
+.comment{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid silver;
+    margin-top: 14px;
+}
+.emo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    background-image: url(15-512.webp);
+    margin-left: 14px;
+}
+.add{
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+}
+.ko{
+    background-color: white;
+    color: dodgerblue;
+    width: 40px;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-left: 200px;
+}
+.second1{
+    width: 32%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 80px;
+
+}
+.hajuuuser{
+    width: 100%;
+    display: flex;
+    height: 90px;
+    align-items: flex-start;
+}
+.koo{
+    background-image: url(User-Icon-Grey-300x300.png);
+    height: 60px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.zl6{
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.zl61{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.zl62{
+    color: grey;
+}
+.sdiv{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.switch{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: dodgerblue;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-top: 46px;
+    margin-left: 79px;
+    margin-bottom: 30px;
+}
+.sug{
+    color: grey;
+    font-size: 17px;
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin-left: 41px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.all{
+    font-size: 14px;
+    margin-left: 85px;
+    color: black;
+}
+.rose{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rosezur{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.zurag01{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.popular{
+    font-size: 13px;
+    color: grey;
+}
+.nana{
+    margin-left: 10px;
+}
+.follow{
+    color: dodgerblue;
+    margin-left: 70px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+.about{
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 30px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+}
+.help{
+    font-size: 12px;
+    color: grey;
+}
+.from{
+    color: grey;
+    margin-top: 30px;
+    font-size: 14px;
+}
+@media screen () {
+    .search{
+        display: none;
+    }
+    .second1{
+        display: none;
+    }
+    .first{
+        margin: auto;
+    }
+}

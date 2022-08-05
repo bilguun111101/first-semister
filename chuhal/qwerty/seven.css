@@ -1,0 +1,458 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+/* .header{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    border-bottom: 1px solid #e0e1e6;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+} */
+.header{
+    /* display: inline-block; */
+    box-sizing: border-box;
+    padding-left: 6.5%;
+    padding-right: 3.5%;
+    width: 87%;
+    height: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.header nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.header nav .qu{
+    width: 90px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+.header nav .qu a{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    transition: 0.2s;
+}
+.qu a::before{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #000;
+    transition: 0.2s;
+    transform: translateY(-10px);
+    border-radius: 3px;
+    box-shadow: 0 10px 0 #000;
+}
+.qu a::after{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #000;
+    transition: 0.2s;
+    transform: translateY(10px);
+    border-radius: 3px;
+}
+.qu a:hover::before{
+    width: 34px;
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #000;
+    box-shadow: none;
+}
+.qu a:hover::after{
+    width: 34px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(-45deg);
+    transition: 0.2s;
+}
+.qe{
+    width: 90px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    margin: auto;
+}
+.qo{
+    width: 90px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.qo p{
+    color: black;
+    text-decoration: none;
+}
+.two{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e0e1e6;
+    margin: auto;
+}
+.two div{
+    width: 87%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    flex-wrap: wrap;
+}
+.two h1{
+    font-size: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.two a{
+    border: 1px solid black;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: 0.2s;
+}
+.two a:hover{
+    background-color: black;
+    color: white;
+}
+.three{
+    padding-left: 7vh;
+    padding-top: 7vh;
+    padding-right: 7vh;
+    height: 86vh;
+    width: 96%;
+    border-bottom: 1px solid #e0e1e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.three nav{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three nav h1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.pls{
+    width: 100%;
+    height: 60.6%;
+    display: flex;
+    cursor: pointer;
+}
+.three nav div span{
+    border: 1px solid #e0e1e6;
+    width: 25%;
+    height: 100%;
+    padding: 4vh;
+    cursor: pointer;
+}
+.lq a div{
+    background-image: url(shirt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    transition: 1s;
+}
+.lq a div:hover{
+    background-image: url(shirt1.png);
+    opacity: 1;
+}
+.lq div{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lw a div{
+    background-image: url(night.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    transition: 1s;
+}
+.lw div{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lw a div:hover{
+    background-image: url(night1.png);
+}
+.le a div{
+    background-image: url(bombor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    transition: 1s;
+}
+.le a div:hover{
+    background-image: url(bomber1.png);
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+.le div{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lr a div{
+    background-image: url(hooded.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 72%;
+    transition: 1s;
+}
+.lr div{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lr a div:hover{
+    background-image: url(hooded1.png);
+}
+@media (max-width: 600px){
+    .pls{
+        height: 350vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .lq{
+        grid-area: 1/1/2/2;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .lq div{
+        height: 100%;
+        width: ;
+    }
+    .lq div{
+        flex-direction: column;
+    }
+    .lw{
+        grid-area: 1/2/2/3;
+    }
+    .le{
+        grid-area: 3/1/4/2;
+    }
+    .lr{
+        grid-area: 4/1/5/2;
+    }
+    
+}
+.all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    border-bottom: 1px solid #e0e1e6;
+}
+.all a{
+    color: black;
+}
+.space{
+    width: 100%;
+    height: 100px;
+}
+.four{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+.four span{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.four h1{
+    color: white;
+    font-size: 40px;
+}
+.four p{
+    color: white;
+}
+.four img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.four a{
+    width: 120px;
+    height: 45px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.four a:hover{
+    background-color: white;
+    color: black;
+}
+.five{
+    height: 1575px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(closet-trends-1.jpeg);
+    flex-direction: column;
+}
+.five div{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.five div span{
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+    background: #fff;
+}
+.neg img{
+    width: 100%;
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.neg p{
+    color: grey;
+}
+.neg a{
+    color: black;
+}
+.fg{
+    padding-left: 10vh;
+}
+.six{
+    width: 100%;
+    height: 98vh;
+    background: black;
+    display: flex;
+}
+.six span{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.photo{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(woman1.png);
+}
+.six span h1{
+    color: white;
+    font-size: 50px;
+}
+.six span p{
+    color: white;
+}
+.six span a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    color: white;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+.six span a:hover{
+    background-color: white;
+    color: black;
+}
+.seven{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 190px;
+    background: black;
+}
+.seven h1{
+    color: white;
+    font-size: 48px;
+}
+.eight{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.photos{
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

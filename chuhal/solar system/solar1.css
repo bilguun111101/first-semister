@@ -1,0 +1,281 @@
+body{
+    background-color: black;
+}
+.solarSystem{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(wi25bb6eb2c0-6be5-4f85-bc55-f704c16e67fa1.jpeg);
+}
+.sun{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.sun1{
+    background-image: url(sun-clip-art-sun-png.jpg);
+    background-size: cover;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation-duration: 8s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.mercury{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: mercury;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mercury {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.mercury1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    animation-duration: 1s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(mercury-planet-mercury-11563652843mkaznzrjva.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.venus{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 4s;
+    animation-name: venus;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes venus {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.venus1{
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(free-download-venus-planet-clipart-planet-betelgeuse-venus-planet-cut-out-11563046056oblas9xgc5.png);
+    background-size: cover;
+}
+.earth{
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 5s;
+    animation-name: earth;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes earth {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.earth1{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: linear-gradient(blue, green);
+    margin: 68px;
+    animation-duration: 2s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(png-clipart-earth-earth.png);
+    background-size: cover;
+}
+.mars{
+    width: 880px;
+    height: 880px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 4s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mars {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.mars1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: chocolate;
+    margin: 105px;
+    animation-duration: 2s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(png-clipart-planet-mars-illustration-earth-terrestrial-planet-mars-solar-system-mars-sphere-venus-thumbnail.png);
+    background-size: cover;
+}
+.jupiter{
+    width: 1100px;
+    height: 1100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation-duration: 10s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.jupiter1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: thistle;
+    margin: 110px;
+    border: 2px solid white;
+    animation-duration: 6s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-image: url(download-jupiter02-jupiter-gif-background-transparent-png-2725884.png);
+}
+.saturn{
+    width: 1300px;
+    height: 1300px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 5s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.saturn1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rosybrown;
+    margin: 140px;
+    animation-duration: 8s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(images-4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uranus{
+    width: 1550px;
+    height: 1550px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 9s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.uranus1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: lightblue;
+    animation-duration: 3s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url(75527d004ba2e7413b5f1a95544c13c4.jpg);
+    background-size: cover;
+    margin: 195px;
+}
+.neptune{
+    width: 1700px;
+    height: 1700px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 14s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.neptune1{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-duration: 5s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-image: url(png-transparent-neptune-uranus-outer-planets-solar-system-planet-miscellaneous-blue-atmosphere.png);
+    margin: 230px
+}
+.pluto{
+    width: 2000px;
+    height: 1800px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation-duration: 17s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.pluto1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-duration: 10s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 200px;
+    background-color: grey;
+    margin: 268px;
+    background-size: cover;
+    background-image: url(images-3.jpeg);
+}
+.moon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    animation-duration: 2s;
+    animation-name: mars;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

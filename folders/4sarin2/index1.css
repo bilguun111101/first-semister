@@ -1,0 +1,16 @@
+*{margin: 0%;}
+.deerhdiv{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deer{
+    width: 1381px;
+    height: 100%;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    background-image: url(Anime_logo_design_png_VylziJAs.avif);
+}

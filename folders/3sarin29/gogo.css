@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    flex-wrap: wrap;
+}
+.e{
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.gogo{
+    margin-left: 17.4%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60%;
+}
+.logo{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sel{
+    margin-left: 1%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+}
+.sel:hover{
+    background-color: #337dff;
+}
+.inp{
+    margin-left: 15%;
+    width: 270%;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+.submitdiv{
+    margin-left: 24%;
+}
+.hansh{
+    margin-left: 8%;
+}s
+.zurhai{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.zur9{
+    background-image: url(114491.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.submit{
+    margin-left: 21%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #337dff;
+    background-color: #337dff;
+}
+.div2{
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+}
+.baishin{
+    height: 50px;
+    width: 50px;
+    background-color: #337dff;
+    margin-left: 17.4%;
+}
+.tusul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 10%;
+    margin-left: 4px;
+    color: #337dff;
+}
+.zas{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zas:hover{
+    color: #33a5ff;
+}
+.tur{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tur:hover{
+    color: #33a5ff;
+}
+.sum{
+    height: 50px;
+    width: 50px;
+    background-color: #337dff;
+    margin-left: 4%;
+}
+.zur{
+    width: 1300px;
+    height: 562px;
+    margin-left: 17.4%;
+    margin-top: 1%;
+    background-color: aqua;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.zur1{
+    margin-left: 0%;
+    width: 50%;
+    height: 100%;
+    background-image: url(292224-29032022-1648547683-1983005768-ganbold1.jpg);
+}
+.medee{
+    flex-wrap: wrap;
+    display: flex;
+}
+.box41{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(268300-01022021-1612152737-548019801-Enkhbayar1.JPG);
+    width: 50%;
+    height: 50%;
+}
+.box42{
+    background-image: url(292219-29032022-1648542716-123314562-28567308_web1_copy_TFlag_map_of_Alaska--2--copy.jpg);
+    height: 50%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

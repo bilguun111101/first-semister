@@ -1,0 +1,187 @@
+.container{
+    background-color: whitesmoke;
+    padding: 2vh;
+    /*display: flex;
+    justify-content: center;*/
+}
+.logo{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15%;
+    margin: auto;
+}
+.gallary{
+    display: grid;
+    width: 100%;
+    height: 200vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.ms{
+    grid-area: 1/1/4/3;
+    background-color: black;
+}
+.marvel{
+    width: 100%;
+    height: 50%;
+    background-image: url(da.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.marvel:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.marvel p{
+    font-size: 60px;
+    color: wheat;
+}
+.black{
+    width: 100%;
+    height: 50%;
+    background-image: url(newton.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.black:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.black p{
+    font-size: 40px;
+    color: wheat;
+}
+.star{
+    grid-area: 1/3/3/4;
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(gates.webp);
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.star:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.star p{
+    font-size: 50px;
+    color: wheat;
+}
+.spidey{
+    grid-area: 1/4/2/6;
+    background-color: blue;
+    background-image: url(op.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.spidey:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.spidey p{
+    font-size: 50px;
+    color: wheat;
+}
+.venom{
+    grid-area: 3/3/4/4;
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(elon.webp);
+    transition: 0.4s;
+}
+.venom:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.thanos{
+    grid-area: 2/4/4/6;
+    background-color: brown;
+    background-image: url(einstein.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.thanos:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.iron{
+    grid-area: 4/1/6/3;
+    background-color: steelblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(hawking.webp);
+    transition: 0.4s;
+}
+.iron:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.thor{
+    grid-area: 4/3/6/5;
+    background-color: violet;
+    display: flex;
+}
+.us{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(thor.jpeg);
+    transition: 0.4s;
+}
+.us:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.cap{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(cap.jpeg);
+    transition: 0.4s;
+}
+.cap:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}
+.widow{
+    grid-area: 4/5/6/7;
+    background-color: thistle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(widow.jpeg);
+    transition: 0.4s;
+}
+.widow:hover{
+    transform: scale(1.04);
+    border-radius: 40px;
+}

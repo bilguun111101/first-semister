@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background: radial-gradient(#FCF3CF, #F7DC6F, #F1C40F); */
+    background: #000;
+}
+
+#canvas{
+    border: 1px solid #fff;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+
+#score{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: #fff;
+    transition: 0.9s;
+}
+
+.class{
+    box-shadow: 0 5px 30px #fff;
+}

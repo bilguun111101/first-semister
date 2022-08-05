@@ -1,0 +1,64 @@
+body{
+    background-color: #337dff;
+    flex-wrap: wrap;
+}
+.blue{
+    height: 750px;
+    width: 600px;
+    margin-left: 850px;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    box-shadow: 9px;
+}
+.h1{
+    font-size: 35px;
+    padding-top: 25px;
+    margin-left: 33px;
+    color: gray;
+}
+.con{
+    padding-top: 18px;
+    margin-left: 33px;
+    color: gray;
+}
+.yourName{
+    height: 45px;
+    width: 500px;
+    margin-left: 33px;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-left: 16px;
+    border: 1.5px solid grey;
+}
+.message{
+    height: 150px;
+    width: 500px;
+    margin-left: 33px;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-left: 16px;
+    border: 1.5px solid grey;
+}
+.submit{
+    height: 45px;
+    width: 520px;
+    margin-left: 33px;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-left: 16px;
+    background-color: #337dff;
+    border: #337dff;
+    color: white;
+}
+.submit:hover{
+    background-color: aqua;
+    color: black;
+}
+.last{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+}

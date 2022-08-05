@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "title": "Berserk",
+        "price": 2,
+        "image": "berserk.jpg",
+        "inCart": 1
+    },
+    {
+        "id": 2,
+        "title": "Erased",
+        "price": 2,
+        "image": "erased.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 3,
+        "title": "Ouran host club",
+        "price": 2,
+        "image": "ouran.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 4,
+        "title": "Death note",
+        "price": 2,
+        "image": "death.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 5,
+        "title": "Hunter X Hunter",
+        "price": 2,
+        "image": "hxh.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 6,
+        "title": "Saiki K",
+        "price": 2,
+        "image": "saiki.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 7,
+        "title": "From me to you",
+        "price": 2,
+        "image": "kimi1.jpg",
+        "inCart": 1
+    },
+    {
+        "id": 8,
+        "title": "Howl's Moving Castle",
+        "price": 2,
+        "image": "howl.webp",
+        "inCart": 1
+    },
+    {
+        "id": 9,
+        "title": "Mononoke Hime",
+        "price": 2,
+        "image": "hime.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 10,
+        "title": "Assassination Classroom",
+        "price": 2,
+        "image": "Classroom.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 11,
+        "title": "Aim For The Ace!",
+        "price": 2,
+        "image": "aimFor.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 12,
+        "title": "Rose Of Versailles",
+        "price": 2,
+        "image": "lady.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 13,
+        "title": "Battle in 5 Seconds After Meeting",
+        "price": 2,
+        "image": "5Second.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 14,
+        "title": "Attack On Titan",
+        "price": 2,
+        "image": "attackOnTitan.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 15,
+        "title": "Demon Slayer",
+        "price": 2,
+        "image": "demonSlayer.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 16,
+        "title": "Another",
+        "price": 2,
+        "image": "another.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 17,
+        "title": "Code Geass",
+        "price": 2,
+        "image": "coGe.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 18,
+        "title": "Banana Fish",
+        "price": 2,
+        "image": "bananaFish.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 19,
+        "title": "Spirited Away",
+        "price": 2,
+        "image": "spirited.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 20,
+        "title": "Devil Man Cry Babe",
+        "price": 2,
+        "image": "devilMan.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 21,
+        "title": "Tokyo Ghoul",
+        "price": 2,
+        "image": "tokyoGhoul.jpeg",
+        "inCart": 1
+    },
+    {
+        "id": 22,
+        "title": "Spy x Family",
+        "price": 2,
+        "image": "spy.jpeg",
+        "inCart": 1
+    }
+]

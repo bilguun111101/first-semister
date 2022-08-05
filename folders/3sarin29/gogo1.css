@@ -1,0 +1,269 @@
+*{margin:0;}
+body{
+    background-color: white;
+    flex-wrap: wrap;
+}
+.e{
+    background-color: white;
+    width: 100%;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(gogo-logo.345096b3.png);
+    height: 45px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.durvuljin{
+    height: 45px;
+    width: 45px;
+    border: 1px solid grey;
+}
+.durvuljin:hover{
+    background-color: #338DFF;
+}
+.input{
+    border: 1px solid grey;
+    margin-left: 14%;
+    height: 45px;
+    width: 250%;
+    font-size: 20px;
+}
+.durvuljin1{
+    width: 60px;
+    height: 50px;
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 19%;
+}
+.agaar{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 60%;
+}
+.nar{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 70%;
+}
+.teg{
+    color: #338DFF;
+    font-size: 20px;
+}
+.dollar{
+    font-size: 20px;
+    color: #338DFF;
+}
+.e2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    background-color: white;
+}
+.baishin{
+    height: 100%;
+    width: 60px;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1%;
+}
+.mega{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mega:hover{
+    color: #338DFF;
+}
+.garchig{
+    height: 100%;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.garchig:hover{
+    color: #338DFF;
+}
+.sum{
+    width: 60px;
+    height: 100%;
+    border: 1px solid whitesmoke;
+    margin-left: 1.5%;
+    background-image: url(down-arrow-road-sign-as-vector-illustration-228486214.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.e-1{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.e3{
+    display: flex;
+    height: 600px;
+    width: 60.5%;
+    margin-top: 0.5%;
+    justify-content: center;
+}
+.zurag{
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    gap: 1%;
+    /*background-repeat: no-repeat;
+    background-size: contain;*/
+    background-image: url(292224-29032022-1648547683-1983005768-ganbold1.jpg);
+}
+.humuus{
+    margin-top: 70%;
+    margin-left: 4%;
+    width: 10%;
+    height: 5%;
+    background-color: #338DFF;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.humuus:hover{
+    background-color: #ffca33;
+}
+.tuuh{
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 24px;
+    color: white;
+}
+.tuuh:hover{
+    color: black;
+}
+.zurag4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.op{
+    margin: 0 1% 1% 1%;
+    width: 48%;
+    height: 48%;
+    background-image: url(268300-01022021-1612152737-548019801-Enkhbayar1.jpg);
+    background-size: cover;
+}
+.po{
+    margin: 0 1% 1% 0;
+    width: 48%;
+    height: 48%;
+    background-image: url(292219-29032022-1648542716-123314562-28567308_web1_copy_TFlag_map_of_Alaska--2--copy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oo{
+    margin: 0 0 1% 1%;
+    width: 48%;
+    height: 50%;
+    background-image: url(236955-05032019-1551772051-130792839-erdenebileg_hhb1-180700-660882006-161516-1392573756.jpeg);
+    background-size: cover;
+    gap: 5px;
+}
+.ol{
+    margin: 0 0 1% 1%;
+    background-image: url(292264-30032022-1648621667-1526910332-1.jpg);
+    width: 48%;
+    height: 50%;
+    background-size: cover;
+}
+.doosh{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 60.5%;
+    margin-top: 30px;
+}
+.doosh1{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid whitesmoke;
+    width: 33%;
+}
+.ontsloh{
+    width: 100%;
+    height: 70px;
+    background-image: url(98795478-white-gray-abstract-geometric-background-vector-from-polygons-triangle-vector-illustration-vector-pa.jpg);
+    background-repeat: no-repeat;
+}
+.tsenher{
+    width: 29%;
+    margin-left: 10%;
+}
+.bluehure{
+    background-color: #338DFF;
+    width: 100%;
+    height: 10px;
+}
+.ontsloh{
+    color: #338DFF; 
+    font-size: 15px;
+}
+.dooshdotor{
+    height: 300px;
+    width: 100%;
+    border-bottom: 0.4px solid grey;
+    border-left: 0.4px solid grey;
+    border-right: 0.4px solid grey;
+}
+.ppp{
+    height: 73%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.zuragcol1{
+    background-image: url(292285-31032022-1648686254-433650080-singapore.jpg);
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+}
+.tsenherhuree{
+    height: 3%;
+    width: 100%;
+    background-color: #338DFF;
+}
+.bichver{
+    width: 80%;
+    margin-left: 10%;
+}
+.singa{
+    font-size: 20px;
+}
+.zl{
+    width: 100%;
+}
+.tsenherzl{
+    height: 60px;
+    width: 45%;
+    background-color: #338DFF;
+    color: white;
+    font-size: 23px;
+}

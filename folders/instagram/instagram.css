@@ -1,0 +1,360 @@
+*{margin: 0%; padding: 0%;}
+body{
+    background-color: whitesmoke;
+}
+.one{
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    position: sticky;
+}
+.one nav{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.one nav img{
+    height: 50px;
+    width: 205px;
+}
+.one1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one1 input{
+    height: 29px;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid #EAEDED;
+    background-color: #EAEDED;
+    color: grey;
+    font-size: 15px;
+}
+.one2{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one2 ul{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    justify-content: flex-end;
+}
+.one20{
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(home1.png);
+}
+.one2 a div:hover{
+    color: white;
+}
+.one21{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(messeg.png);
+    margin-right: 10px;
+}
+.one22{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(add.png);
+    margin-right: 10px;
+}
+.one23{
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(safari.png);
+    margin-right: 4px;
+}
+.one24{
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(heart.png);
+}
+.one25{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+}
+@media(max-width: 830px) {
+    .one nav{
+        width: 100%;
+    }
+    .one1 input{
+        display: none;
+    }
+}
+.two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.two1{
+    width: 66%;
+    display: flex;
+    margin: auto;
+}
+.twolarge{
+    width: 66%;
+    margin: auto;
+}
+@media(max-width: 830px) {
+    .two1{
+        width: 100%;
+    }
+    
+}
+.twolarge nav{
+    height: 110px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.img-container div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 0 20px 20px;
+    background: radial-gradient(rgba(0,0,0,0.15) 60%, transparent 0),
+    radial-gradient(white 65%, transparent 0), linear-gradient(orange, deeppink);
+    transition: 0.5s;
+}
+.img-container div:hover{
+    transform: scale(1.1);
+}
+.user{
+    /* flex-direction: column; */
+    width: 34%;
+    /* margin: auto; */
+    /* position: sticky; */
+
+    background-color: aqua;
+}
+.top{
+    height: 110px;
+    width: 100%;
+    margin: auto;
+}
+.omg{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.imgDiv{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.imgDiv div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.name{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+.name:last-child{
+    color: grey;
+}
+.omg:last-child{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.omg:last-child a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+.all{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.allf{
+    color: grey;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.alll{
+    text-decoration: none;
+    font-size: 12px;
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+.requi{
+    width: 100%;
+    height: 45px;
+}
+@media(max-width: 700px){
+    .user{
+        display: none;
+    }
+}
+.post{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.largetopDiv{
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.taylorDiv{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+.taylor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(taylor-swift-attends-the-2016-vanity-fair-oscar-party-hosted-by-graydon-carter-at-wallis-annenberg-center-for-the-performing-arts-on-february-28-2016-in-beverly-hills-california-photo-by-anthony-harve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Name1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Name1 div{
+    text-decoration: none;
+    color: black;
+}
+.postImg{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.postImg img{
+    width: 100%;
+}
+.like{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+.like div{
+    display: flex;
+}
+.heart{
+    margin-left: 2%;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart img{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.comment{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment img{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.share{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share img{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.number{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.number p{
+    margin-left: 2%;
+    font-size: 19px;
+}
+.comment1{
+    width: 100%;
+    margin: auto;
+}
+.comment1 div{
+    margin-left: 2%;
+    font-size: 14px;
+    color: grey;
+    margin-top: 1%;
+}
+.on{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.on p{
+    color: grey;
+}

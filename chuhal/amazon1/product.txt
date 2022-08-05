@@ -1,0 +1,51 @@
+[{id: 1,title: "Berserk",price: 2,image: "berserk.jpg",inCart: 1,},{id: 2,title: "Erased",price: 2,image:"erased.jpeg",inCart: 1,},{id: 3,title: "Ouran host club",price: 2,image: "ouran.jpeg",inCart: 1,},
+  {
+    id: 4,
+    title: "Death note",
+    price: 2,
+    image: "death.jpeg",
+    inCart: 1,
+  },
+  {
+    id: 5,
+    title: "Hunter X Hunter",
+    price: 2,
+    image: "hxh.jpeg",
+    inCart: 1,
+  },
+  {
+    id: 6,
+    title: "Saiki K",
+    price: 2,
+    image: "saiki.jpeg",
+    inCart: 1,
+  },
+  {
+    id: 7,
+    title: "From me to you",
+    price: 2,
+    image: "kimi1.jpg",
+    inCart: 1,
+  },
+  {
+    id: 8,
+    title: "Howl's Moving Castle",
+    price: 2,
+    image: "howl.webp",
+    inCart: 1,
+  },
+  {
+    id: 9,
+    title: "Mononoke Hime",
+    price: 2,
+    image: "hime1.webp",
+    inCart: 1,
+  },
+  {
+    id: 10,
+    title: "Assassination Classroom",
+    price: 2,
+    image: "Classroom.jpeg",
+    inCart: 1,
+  }
+]
